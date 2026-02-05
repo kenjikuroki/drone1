@@ -113,7 +113,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'ドローン国家資格 二等 学科試験対策問題集',
+      title: 'ドローン資格 二等',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
@@ -275,7 +275,7 @@ class _HomePageState extends State<HomePage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text("ドローン国家資格 二等 学科試験対策問題集"),
+        title: const Text("ドローン資格 二等"),
       ),
       body: Column(
         children: [
@@ -348,7 +348,7 @@ class _HomePageState extends State<HomePage> {
                       textStyle: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                     ),
                   ),
-                  const SizedBox(height: 40),
+                  const SizedBox(height: 20),
 
                   // Sister App Promotion
                   ValueListenableBuilder<bool>(
@@ -358,7 +358,7 @@ class _HomePageState extends State<HomePage> {
                       return const Column(
                         children: [
                           _SisterAppPromotion(),
-                          SizedBox(height: 40),
+                          const SizedBox(height: 10),
                         ],
                       );
                     },
@@ -409,11 +409,11 @@ class _MenuButton extends StatelessWidget {
           onTap: onTap,
           borderRadius: BorderRadius.circular(24),
           child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 24.0),
+            padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 12.0),
             child: Row(
               children: [
                 Container(
-                  padding: const EdgeInsets.all(16),
+                  padding: const EdgeInsets.all(12),
                   decoration: BoxDecoration(
                     color: iconColor.withOpacity(0.12),
                     borderRadius: BorderRadius.circular(16),
@@ -849,7 +849,7 @@ class _SisterAppPromotion extends StatelessWidget {
   const _SisterAppPromotion();
 
   Future<void> _launchURL(BuildContext context) async {
-    final Uri url = Uri.parse('https://apps.apple.com/app/id6758617558');
+    final Uri url = Uri.parse('https://apps.apple.com/app/id6758681333');
     
     showDialog(
       context: context,
@@ -875,14 +875,14 @@ class _SisterAppPromotion extends StatelessWidget {
                       ),
                     ],
                     image: const DecorationImage(
-                      image: AssetImage('assets/sister_app_icon.jpg'),
+                      image: const AssetImage('assets/icon/drone_icon_orange.png'),
                       fit: BoxFit.cover,
                     ),
                   ),
                 ),
                 const SizedBox(height: 16),
                 const Text(
-                  "選択問題版のアプリが登場！",
+                  "ドローン資格一等も攻略！",
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 20,
@@ -955,7 +955,7 @@ class _SisterAppPromotion extends StatelessWidget {
                ClipRRect(
                 borderRadius: BorderRadius.circular(12),
                 child: Image.asset(
-                  'assets/sister_app_icon.jpg',
+                  'assets/icon/drone_icon_orange.png',
                   width: 60,
                   height: 60,
                   fit: BoxFit.cover,
@@ -975,12 +975,12 @@ class _SisterAppPromotion extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          "選択問題版のアプリが登場！",
+                          "姉妹アプリが登場！",
                           style: TextStyle(fontSize: 12, color: Colors.grey, fontWeight: FontWeight.bold),
                         ),
                         SizedBox(height: 4),
                         Text(
-                          "5択問題で実力試し！\n姉妹アプリはこちら",
+                          "ドローン資格一等も攻略！\n詳細はこちらから",
                           style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold, height: 1.4),
                         ),
                       ],

@@ -14,11 +14,11 @@ class PremiumUnlockCard extends StatelessWidget {
         return Column(
           children: [
             Container(
-              margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+              margin: const EdgeInsets.symmetric(horizontal: 8, vertical: 8),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(24),
                 gradient: const LinearGradient(
-                  colors: [Color(0xFFFFD100), Color(0xFFFF9500)],
+                  colors: [Color(0xFFFFD600), Color(0xFFFF9F00)],
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,
                 ),
@@ -31,19 +31,19 @@ class PremiumUnlockCard extends StatelessWidget {
                 ],
               ),
               child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 16),
+                padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 14),
                 child: Row(
                   children: [
                     // Icon with circular background
                     Container(
-                      padding: const EdgeInsets.all(12),
+                      padding: const EdgeInsets.all(8),
                       decoration: BoxDecoration(
-                        color: Colors.white.withOpacity(0.2),
+                        color: Colors.white.withOpacity(0.3),
                         shape: BoxShape.circle,
                       ),
-                      child: const Icon(Icons.stars, color: Colors.white, size: 32),
+                      child: const Icon(Icons.stars, color: Colors.white, size: 24),
                     ),
-                    const SizedBox(width: 16),
+                    const SizedBox(width: 10),
                     // Text section
                     const Expanded(
                       child: Column(
@@ -53,9 +53,9 @@ class PremiumUnlockCard extends StatelessWidget {
                             "プレミアムプランに\nアップグレード",
                             style: TextStyle(
                               color: Colors.white,
-                              fontSize: 18,
-                              fontWeight: FontWeight.bold,
-                              height: 1.2,
+                              fontSize: 16,
+                              fontWeight: FontWeight.w900,
+                              height: 1.1,
                             ),
                           ),
                           SizedBox(height: 4),
@@ -63,7 +63,7 @@ class PremiumUnlockCard extends StatelessWidget {
                             "広告を非表示にして集中！",
                             style: TextStyle(
                               color: Colors.white,
-                              fontSize: 13,
+                              fontSize: 11,
                             ),
                           ),
                         ],
@@ -75,16 +75,17 @@ class PremiumUnlockCard extends StatelessWidget {
                       onPressed: () => PurchaseManager.instance.buyPremium(),
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.white,
-                        foregroundColor: Colors.orange[800],
-                        padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(24),
-                        ),
-                        elevation: 4,
+                        foregroundColor: const Color(0xFFFF9F00),
+                        padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+                        shape: const StadiumBorder(),
+                        elevation: 0,
                       ),
                       child: const Text(
                         "購入",
-                        style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 15,
+                        ),
                       ),
                     ),
                   ],

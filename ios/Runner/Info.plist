@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>ドローン対策</string>
+	<string>ドローン資格 二等</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -46,7 +46,7 @@
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>GADApplicationIdentifier</key>
-	<string>ca-app-pub-3331079517737737~2429036337</string>
+	<string>ca-app-pub-3331079517737737~2962702384</string>
 	<key>NSUserTrackingUsageDescription</key>
 	<string>適切に広告を表示するために、次の画面で「許可」を選択してください。</string>
 </dict>
