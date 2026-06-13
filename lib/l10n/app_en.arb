@@ -1,0 +1,54 @@
+{
+  "@@locale": "en",
+  "appTitle": "Drone License Grade 2",
+  "quizSubtitle": "Pass quickly in your spare time! Q&A",
+  "modeShuffle": "Shuffle",
+  "modeSequential": "In Order",
+  "lockModeSequential": "This mode is locked",
+  "premiumUpgrade": "Premium Upgrade",
+  "featureSequentialTitle": "Unlock 'Sequential' Mode",
+  "featureSequentialDesc": "You can solve all questions in order from the first one.",
+  "featureNoAdsTitle": "Completely Hide Advertisements",
+  "featureNoAdsDesc": "All advertisements in the app will be hidden.",
+  "purchase": "Purchase",
+  "cancel": "Cancel",
+  "reviewWeakness": "Review Weakness ({count} questions)",
+  "@reviewWeakness": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "selectCategory": "Select Category",
+  "noData": "No quiz data available",
+  "back": "Undo",
+  "questionNumber": "Q{index}",
+  "@questionNumber": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "questionsCount": "{count} questions",
+  "@questionsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "part1": "Laws & Rules",
+  "part2": "Aircraft & Systems",
+  "part3": "Flight & Safety",
+  "part4": "Mechanics & Weather",
+  "premiumCardTitle": "Upgrade to\nPremium Plan",
+  "premiumCardSubtitle": "Focus by hiding ads!",
+  "restorePurchase": "Restore Purchase",
+  "sisterAppPromoTitle": "Sister App is here!",
+  "sisterAppPromoSubtitle": "Conquer Drone License Grade 1!\nClick here for details",
+  "sisterAppDialogTitle": "Conquer Drone License Grade 1!",
+  "sisterAppDialogBody": "Opening App Store to take you to the sister app page.",
+  "open": "Open"
+}

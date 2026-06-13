@@ -1,0 +1,25 @@
+Analyzing drone1...                                             
+
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/main.dart:308:24 • use_build_context_synchronously
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/main.dart:492:44 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/main.dart:510:38 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/main.dart:975:45 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/main.dart:1050:33 • deprecated_member_use
+   info • Unnecessary 'this.' qualifier • lib/main.dart:1315:35 • unnecessary_this
+   info • Unnecessary 'this.' qualifier • lib/main.dart:1320:69 • unnecessary_this
+   info • Unnecessary 'this.' qualifier • lib/main.dart:1325:50 • unnecessary_this
+warning • The value of the field '_prefsKeyOfferShown' isn't used • lib/utils/purchase_manager.dart:14:23 • unused_field
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/category_review_card.dart:26:47 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/category_review_card.dart:29:33 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/category_review_card.dart:47:38 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/category_review_card.dart:66:40 • deprecated_member_use
+   info • Unnecessary use of 'toList' in a spread • lib/widgets/category_review_modal.dart:64:14 • unnecessary_to_list_in_spreads
+warning • The value of the local variable 'l10n' isn't used • lib/widgets/mode_toggle.dart:20:11 • unused_local_variable
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/mode_toggle.dart:32:47 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/premium_unlock_card.dart:29:41 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/premium_unlock_card.dart:43:45 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/special_offer_dialog.dart:26:39 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/special_offer_dialog.dart:98:46 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/special_offer_dialog.dart:156:42 • deprecated_member_use
+
+21 issues found. (ran in 3.6s)
